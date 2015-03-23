@@ -1,0 +1,7 @@
+{
+    "dbms": "mysql",
+    "host": "localhost",
+    "database": "service",
+    "username": "root",
+    "password": ""
+}
