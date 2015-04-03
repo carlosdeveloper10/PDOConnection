@@ -29,7 +29,8 @@ require 'ConnectionException.php';
  * 
  * <b>IMPORTANT<b>: This class uses a JSON file to finds all the information about the connection,
  * the information is: dbms, host, database, username and password. Please, 
- * see the following file <connectionparameters.json>
+ * see the following file <connectionparameters.json>, this file always must is 
+ * in the server
  *
  * @author Carlos Mario <carlos_programmer10@hotmail.com>
  * 
@@ -42,6 +43,14 @@ class Connection {
      * @var string
      */
     const VERSION = "1.2";
+    
+    
+    /**
+     * path where is the json file<connectionparameters.json>
+     * 
+     * @var string
+     */
+    private $jsonPath;
     
     /**
      * Database management systems where the database is.
@@ -164,7 +173,7 @@ class Connection {
         $this->validateSqlStatement();
         
         try {
-            return $this->oDb->exec($this->sSqlStatement);
+            return $this->oDb->query($this->sSqlStatement);
         } catch (Exception $ex) {
             throw new ConnectionException("The Sql statement didn't execute because: " . $ex->getMessage());
         }
@@ -225,10 +234,10 @@ class Connection {
      */
     private function readJsonConnectionFile(){
         
-        $json = file_get_contents("../../info/connectionparameters.json");
+        $json = file_get_contents($this->jsonPath);
         
         if (!$json) {
-            return false;
+            throw new ConnectionException("The json connection file does not exist in the path: " . $this->jsonPath);
         }
         
         $parameters = json_decode($json, TRUE);
@@ -256,6 +265,15 @@ class Connection {
      */
     public function setSqlStatement($sSqlStatement) {
         $this->sSqlStatement = $sSqlStatement;
+    }
+    
+    /**
+     * Set the json path.
+     * 
+     * @param string path of tje json file
+     */
+    public function setJsonPath($path){
+        $this->jsonPath = $path;
     }
     
     
