@@ -36,5 +36,3 @@ $con->close();//It is optional
 foreach ($result as $row){
     echo "Result: " . $row[0] . " " . $row[1] . "</br>";
 }
-
-
