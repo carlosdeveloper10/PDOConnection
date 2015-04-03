@@ -1,0 +1,7 @@
+{
+    "dbms": "pgsql",
+    "host": "my_host",
+    "database": "my_database",
+    "username": "my_username",
+    "password": "my_password"
+}
