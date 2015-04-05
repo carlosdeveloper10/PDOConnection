@@ -1,8 +1,9 @@
 <?php
 /*
- * Copyright (c) Carlos Mario. 
- * Please, read the document linceseinfo.doc, to find information about license 
- * of this code 
+ * Copyright (c) 2015 Carlos Mario
+ * Please, click on the link to find information about licenese
+ * LINK: https://github.com/carlosprogrammer/InputDialog/blob/master/LICENSE
+ *
  * 
  * 
  * 
