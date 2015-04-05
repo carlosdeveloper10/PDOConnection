@@ -60,14 +60,6 @@ File configuration:
 
 --------------
 
-Excuse me for my english. I not am  native speaker and my english is low.
-
---------------
-
-
-
---------------
-
-Copyright, 2015 by [Carlos Mario](https://twitter.com/carlos_mario__)
+Copyright (c) 2015 [Carlos Mario](https://twitter.com/carlos_mario__)
 
 --------------
