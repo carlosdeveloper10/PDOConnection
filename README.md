@@ -1,12 +1,12 @@
 # PDOConnection
 
-Useful library for connect of way easy apps
+Useful library for connect of easy way apps
 with any DB supported by PDO 
 
 ## What can you do with this library?
 
 You can connect to any DB supported by PDO(Mysql and Postgresql for the moment)
-and make CRUD or call to functions and stored procedure
+and make CRUD or call to functions and stored procedures
 
 ## DBMS supported?
 
@@ -19,7 +19,7 @@ This library was tested with:
 -   Microsoft sql:
 --   result: it is waiting.
 
-look at the following tests for learn to use the library 
+look at the following tests to learn to use the library 
 
 -   [Mysql tests](https://github.com/carlosprogrammer/PDOConnection/tree/master/test/MySqlTest)
 -   [Postgresql test](https://github.com/carlosprogrammer/PDOConnection/tree/master/test/PgSqlTest)
@@ -45,9 +45,9 @@ $uriConnection = "firebird:dbname=hostname/port:/path/to/DATABASE.FDB";//New lin
 ### Connection parameters
 
 You must indicate where is the file `connectionparameters.json`
-and the file is must configured, on the contrary, the connection fail.
+and the file must be configured, on the contrary, the connection will not run.
 
-File configuration:
+File setup:
 ```json
 {
     "dbms": "your_dbms",
