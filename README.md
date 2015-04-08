@@ -38,7 +38,7 @@ the dbms dns
 
 //Change this line
 $uriConnection = "".$this->dbms.":host=".$this->host.";dbname=".$this->database."";//Old line
-//To line -Here the dns of dbms-
+//To this line -Here the dns of dbms-
 $uriConnection = "firebird:dbname=hostname/port:/path/to/DATABASE.FDB";//New line
 ```
 
