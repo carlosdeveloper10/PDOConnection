@@ -16,7 +16,7 @@
 
 
 //Necessary classes
-use cmsoft\com\connection\Connection;
+use org\cmsoft\connection\Connection;
 
 //Necessary files in other directories
 require '../lib/connection/Connection.php';
