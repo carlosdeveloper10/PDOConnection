@@ -14,7 +14,7 @@
  * 
  */
 
-namespace cmsoft\com\connection;
+namespace org\cmsoft\connection;
 
 //Necessary classes in other namepaces
 use Exception;

@@ -15,7 +15,7 @@
  * 
  */
 
-namespace cmsoft\com\connection;
+namespace org\cmsoft\connection;
 
 //necessary classes in other namespaces
 use PDO;

@@ -22,5 +22,5 @@
  * 
  * @author Carlos Mario <carlos_programmer10@hotmail.com>
  */
-namespace cmsoft\com\connection;
+namespace org\cmsoft\connection;
 
