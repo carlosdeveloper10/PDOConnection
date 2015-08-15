@@ -60,6 +60,6 @@ File setup:
 
 --------------
 
-Copyright (c) 2015 [Carlos Mario](https://twitter.com/carlos_mario__)
+Developer by: [Carlos Mario](https://twitter.com/carlos_mario__)
 
 --------------
