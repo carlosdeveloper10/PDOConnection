@@ -1,7 +1,8 @@
 {
-    "dbms": "mysql",
-    "host": "localhost",
-    "database": "service",
-    "username": "root",
+    "dbms": "here_DBMS(mssql/mysql/pgsql)",
+    "host": "localhost/127.0.0.1/ip_server",
+    "port": "none/default(3306)/other_port",
+    "database": "database_name",
+    "username": "",
     "password": ""
 }
