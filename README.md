@@ -60,6 +60,6 @@ File setup:
 
 --------------
 
-Developer by: [Carlos Mario](https://twitter.com/carlos_mario__)
+Developed by: [Carlos Mario](https://twitter.com/carlos_mario__)
 
 --------------
